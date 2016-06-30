@@ -3,8 +3,8 @@
 echo "<h1>Well, this is the hello page! </h1>";
 echo "<p>What is your name?</p>";
 $url = $_SERVER['REQUEST_URI'];
-	$string = substr($url, 14);
-	$ideaid = substr($url, 21, 15);
+	$string = substr($url, 11);
+	$ideaid = substr($url, 18, 15);
 
 	echo $string."<br>";
 	echo "Idea id is: ".$ideaid;
